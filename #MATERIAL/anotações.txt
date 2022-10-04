@@ -1,0 +1,8 @@
+1. DAR COMMIT
+    git init
+    git add .
+    git status
+    git commit -m ""
+    git status 
+    git push 
+2.

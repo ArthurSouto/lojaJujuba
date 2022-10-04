@@ -1,0 +1,22 @@
+{
+    "name": "admin/jujuba",
+    "description": "loja online de vendas de cupons para proceidmentos est\u0000ticos em PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Jujuba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ArthurSouto",
+            "email": "arthursouto2005@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        }
+    }
+}
