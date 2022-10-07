@@ -1,18 +1,13 @@
 <?php
 
-// abrir a sessao
+use core\classes\Database;
+use core\classes\Functions;
+
+//abrir sessão 
 session_start();
 
 //carregar o config
 require_once('../config.php');
 
+// carrega todas as classes do projeto
 require_once('../vendor/autoload.php');
-
-/*
-carregar config
-carregar classes
-carregar sistema de rotas
-    - mostrar loja
-    - mostrar carrinho
-    -mostrar o backoffice, etc
-*/

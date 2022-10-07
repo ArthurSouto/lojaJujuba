@@ -5,4 +5,16 @@
     git commit -m ""
     git status 
     git push 
-2.
+
+2.  DADOS DO database.php
+    define('MYSQL_SERVER',      'localhost');
+    define('MYSQL_DATABASE',    'jujuba');
+    define('MYSQL_USER',        'user_jujuba');
+    define('MYSQL_PASS',        '');
+    define('MYSQL_CHARSET',     'utf8');
+
+3. CRUD
+    Create  -   INSERT
+    Read    -   SELECT
+    Update  -   UPDATE
+    Delete  -   DELETE
