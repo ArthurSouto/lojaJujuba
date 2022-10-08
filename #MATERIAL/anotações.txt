@@ -18,3 +18,5 @@
     Read    -   SELECT
     Update  -   UPDATE
     Delete  -   DELETE
+
+4. Caso alguma tabela seja excuida acidentalmente usar o arquivo base_dados.sql para recuperar a tabela ou informação.
