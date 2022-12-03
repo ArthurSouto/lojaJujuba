@@ -4,10 +4,10 @@ namespace core\classes;
 
 use Exception;
 
-class Functions{
+class Store{
 
     // ============================================================
-    public static function layout($estruturas){
+    public static function layout($estruturas, $dados = null){
 
         // verifica se estruturas é um array
         if(!is_array($estruturas)){
@@ -15,6 +15,9 @@ class Functions{
         }
 
         // variáveis
+        if(!empty($dados) && is_array($dados)){
+            extract($dados);
+        }
 
         // apresentar as views da aplicação
         foreach($estruturas as $estrutura){
@@ -23,12 +26,11 @@ class Functions{
 
     }
 
+    // ============================================================
+    public static function clienteLogado(){
+
+        //verifica se existe um cliente com sessão
+        return isset($_SESSION['cliente']);
+    }
+
 }
-
-/*
-
-hmtl_header.php
-inicio.php
-html_footer.php
-
-*/

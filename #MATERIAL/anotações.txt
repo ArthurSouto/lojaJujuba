@@ -6,6 +6,8 @@
     git status 
     git push 
 
+    git pull -> para atualizar o projeto caso seja feita modificação por outra pessoa
+
 2.  DADOS DO database.php
     define('MYSQL_SERVER',      'localhost');
     define('MYSQL_DATABASE',    'jujuba');
@@ -20,3 +22,5 @@
     Delete  -   DELETE
 
 4. Caso alguma tabela seja excuida acidentalmente usar o arquivo base_dados.sql para recuperar a tabela ou informação.
+
+5. usar o site https://fontawesome.com/icons para os icones do site.

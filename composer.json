@@ -2,14 +2,9 @@
     "name": "admin/jujuba",
     "description": "loja online de vendas de cupons para proceidmentos est\u0000ticos em PHP",
     "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Admin\\Jujuba\\": "src/"
-        }
-    },
     "authors": [
         {
-            "name": "ArthurSouto",
+            "name": "Arthur Souto",
             "email": "arthursouto2005@gmail.com"
         }
     ],
@@ -17,6 +12,9 @@
     "autoload": {
         "psr-4": {
             "core\\" : "core/"
-        }
+        },
+        "files": [
+            "config.php"
+        ]
     }
 }
